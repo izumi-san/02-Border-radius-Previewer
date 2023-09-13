@@ -1,18 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Border-radius Previewer</title>
-	 <link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 	<header></header>
 	<main>
 		<h1>Visualizador de border-radius</h1>
+		<div class="input-section-upper">
+			<div>
+				<label for="upper-left-border-radius">Border-radius Superior Esquerdo:</label>
+				<input type="number" id="upper-left-border-radius">
+			</div>
+			<div>
+				<label for="upper-right-border-radius">Border-radius Superior Direito:</label>
+				<input type="number" id="upper-right-border-radius">
+			</div>
+		</div>
+		<div id="Border-radius-Previewer"></div>
+		<div class="input-section-bottom">
+			<div>
+				<label for="bottom-left-border-radius">Border-radius Inferior Esquerdo:</label>
+				<input type="number" id="bottom-left-border-radius">
+			</div>
+			<div>
+				<label for="bottom-right-border-radius">Border-radius Inferior Direito:</label>
+				<input type="number" id="bottom-right-border-radius">
+			</div>
+		</div>
 	</main>
 	<footer></footer>
 </body>
-<script src="index.js"></script> 
+<script src="index.js"></script>
+
 </html>
