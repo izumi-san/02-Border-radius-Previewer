@@ -11,26 +11,26 @@
 
 <body>
 	<header></header>
-	<main>
+	<main class="border-radius-visualizer">
 		<h1>Visualizador de border-radius</h1>
 		<div class="input-section-upper">
-			<div>
-				<label for="upper-left-border-radius-input">Border-radius Superior Esquerdo:</label>
+			<div class="input-section__item">
+				<label for="upper-left-border-radius-input">Superior Esquerdo:</label>
 				<input type="number" id="upper-left-border-radius-input" onchange="setUpperLeftBorder(value)">
 			</div>
-			<div>
-				<label for="upper-right-border-radius-input">Border-radius Superior Direito:</label>
+			<div class="input-section__item">
+				<label for="upper-right-border-radius-input">Superior Direito:</label>
 				<input type="number" id="upper-right-border-radius-input" onchange="setUpperRightBorder(value)">
 			</div>
 		</div>
 		<div id="Border-radius-Previewer"></div>
 		<div class="input-section-bottom">
-			<div>
-				<label for="bottom-left-border-radius-input">Border-radius Inferior Esquerdo:</label>
+			<div class="input-section__item">
+				<label for="bottom-left-border-radius-input">Inferior Esquerdo:</label>
 				<input type="number" id="bottom-left-border-radius-input" onchange="setBottomLeftBorder(value)">
 			</div>
-			<div>
-				<label for="bottom-right-border-radius-input">Border-radius Inferior Direito:</label>
+			<div class="input-section__item">
+				<label for="bottom-right-border-radius-input">Inferior Direito:</label>
 				<input type="number" id="bottom-right-border-radius-input" onchange="setBottomRightBorder(value)">
 			</div>
 		</div>
